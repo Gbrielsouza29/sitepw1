@@ -1,0 +1,147 @@
+@font-face {
+    font-family:minha_fonte;
+    src: url(../font/SourceSansPro-Regular.ttf);
+}
+
+html{
+    background-image: url(../imagens/capa2.png);
+    background-size:cover;
+}
+body{
+   font-family:minha_fonte; 
+}
+
+.caixa{
+   margin:5px auto;
+   width: 900px;
+   padding: 40PX;
+   text-align: center;
+}
+
+.bloco{
+background-color: white;
+opacity: 0.9;
+border-color:rgb(156, 140, 140);
+border:1px;
+border-style: solid;
+margin-top: -15px;
+padding: 20px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow:visible;
+    height: 2px;
+    background-color: rgb(19, 17, 17);
+    position: fixed;
+    top: 0;
+    height: 55px;
+    width: 100%;
+    z-index: 1;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 10px 08px;
+text-decoration: none;
+}
+ li a:hover{
+background-color:#F8181C;
+ text-decoration: underline;
+}
+.lista ul{
+list-style-type:none;
+position: fixed;
+left: 10px;
+top:80px;
+height: 250px;
+margin: 20px  10px auto;
+padding:5px;
+background-color: black ;
+border-radius: 15%;
+width: auto;
+}
+
+.lista li{
+    float:none;
+}
+
+.lista li a {
+
+color:white;
+font-weight:bolder;
+text-align: center;
+margin: 2px;
+padding:2px;
+text-decoration:none;
+}
+
+.lista li a:hover{
+color: white;    
+background-color:#F8181C;
+ 
+padding: 5px;
+text-decoration: underline;
+}
+
+.h1{
+    font-family: minha_fonte;
+    padding: 4px;
+}
+
+.h2{
+    margin-left: 40px ;
+    z-index: 0;
+    
+}
+
+  .bloco p{
+         font-size: 20px;
+         text-align: justify;
+         line-height:1.5;
+     }
+
+.bloco img{
+    display:flex;
+    margin :2px auto;
+    padding: 10px 10px 0 0;
+    float: none;  
+}
+
+  img:hover{
+    border: 2px solid #aab1b0;
+    padding: 1px;
+    zoom: 101%;
+}
+
+.capa img{
+    border-radius: 50%;
+    margin: 10px auto;
+}
+
+  .capa img:hover{
+    border: 2px solid #aab1b0;
+    padding: 1px;
+}
+  
+     .bloco a { 
+         color : #34B4EB ; 
+        font-weight : bold ;
+        text-decoration:none ;
+     }
+
+     .bloco a:hover{
+         color:#34B4EB;
+        text-decoration:underline;
+        padding:5px;
+        background-color:mediumturquoise;
+     }
+
