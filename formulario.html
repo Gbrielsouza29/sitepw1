@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.css"> 
+    <title>Cadastro de Currículo</title>
+</head>
+<body>
+    <form class="row g-3">
+    <h1>Cadastro</h1>
+    <div class="col-md-6">
+        <label for="nome" class="form-label">Nome completo</label>
+        <input type="text" class="form-control" id="Nome" placeholder="Digite seu nome completo">
+    </div>
+    <div class="row g-1">
+    <div class="col-md-6">    
+        <label for="Email" class="form-label">Digite seu E-mail</label>
+        <input type="email" class="form-control" id="email" placeholder="Digite seu email">
+    </div>
+    </div>
+    <div class="row g-3">
+        <div class="col-md-2">    
+            <label for="idade" class="form-label">idade</label>
+            <input type="date" class="form-control" id="idade">
+        </div>
+        <div class="col-md-2">    
+            <label for="nacionalidade" class="form-label">nacionalidade</label>
+            <input type="text" class="form-control" id="nacionalidade">
+        </div>
+        <div class="col-md-2">    
+            <label for="estado civil" class="form-label">estado civil</label>
+            <select id="estado civil" class="form-select">
+                <option selected>Selecione seu estado civil</option>
+                <option>Solteiro(a)</option>
+                <option>Casado(a)</option>
+                <option>Divorciado(a)</option>
+                <option>Viuvo(a)</option>
+              </select>
+    </div>
+    </div>
+    <div class="row g-3">
+        <div class="col-md-6">    
+            <label for="Objetivo" class="form-label">Objetivo Profissional</label>
+            <input type="text" class="form-control" id="objetivo" placeholder="Digite seu objetivo">
+        </div>
+    </div>
+
+    <div class="row g-3">
+        <div class="col-md-6">    
+            <label for="vaga" class="form-label">Vaga Desejada</label>
+            <input type="text" class="form-control" id="objetivo" placeholder="Informe a vaga desejada">
+        </div>
+    </div>
+    <form class="row g-3">
+        <div class="col-md-6">
+            <label for="nome" class="form-label">ultima experiência	profissional</label>
+            <input type="text" class="form-control" id="Nome" placeholder="Nome da empresa">
+        </div>
+    <h3> Experiências profissionais</h3>
+    <div class="row g-2">
+        <div class="col-md-6">    
+            <label for="floatingTextarea2">experiência profissional 1</label>    
+            <textarea class="form-control" placeholder="Digite oque você fazia" id="experiência" style="height: 100px"></textarea>
+        </div>
+    </div>
+
+    <div class="col-md-12">  
+    <button type="submit" class=" btn-primary">Enviar</button>
+    </div>
+    
+</form>
+</body>
+</html>
